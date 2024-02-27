@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+
+.icon{
+  border-radius: 45px !important;
+  height: 45px;
+  width: 50px;
+  margin-left: 100px !important;
+}
+.toggle{
+  width: 300px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#b{
+  border-radius: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.dogcon{
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px  black solid;
+  height:200px;
+  color: black;
+  opacity: 0.9;
+  width: 50%;
+  transition: background-image 0.3s ease-out; /* Smooth transition effect for background image */
+  border-radius: 20px;
+}
+
+#dogcon1:hover{
+  background-image: url(https://i.postimg.cc/pdSYHZPz/lab.jpg);
+
+  background-size: cover;
+ /* Smooth transition effect */
+ transform: scale(1.1);
+}
+
+
+#dogcon2:hover{
+  background-image: url(https://i.postimg.cc/kXr7QkcN/PPF-Blog-Update-Thumbs-0041-42-Cat-Stages.webp);
+
+  background-size: cover;
+ /* Smooth transition effect */
+ transform: scale(1.1);
+}
+
+#dogcon3:hover{
+  background-image: url(https://i.postimg.cc/pdSYHZPz/lab.jpg);
+
+  background-size: cover;
+ /* Smooth transition effect */
+ transform: scale(1.1);
+}
+.dogcon:hover img {
+  opacity: 0;
+}
+
+.dogicon{
+  border-radius: 400px;
+}
+.secondmain{
+  background-image: url(https://i.postimg.cc/GmMvnWPw/secod.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  height: 800px;
+
+}
+
+/* .bi{
+  background-image: url("https://i.postimg.cc/KcH9GMyD/grp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  opacity: inherit;
+ 
+
+} */
+
+/* .di{
+  opacity: 0.7;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  border-radius: 20px;
+} */
+
+
+
+.bi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://i.postimg.cc/KcH9GMyD/grp.jpg');
+  background-size: cover;
+  opacity: 0.8; /* Adjust the opacity as needed */
+  overflow-y: hidden;
+}
+
+.di {
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  z-index: 1; /* Ensure the content is on top of the background layer */
+  color: #000000;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(93, 105, 114, 0.69);
+  height: 500px;
+  border-radius: 30px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+p{
+  color: rgb(0, 0, 0);
+}
+
+.d1{
+  height: 800px;
+}
+
+.addcard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.s1{
+display: flex !important;
+}
+
+.pcard{
+  border-radius: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(248, 237, 207);
+}
+.petgallery{
+  border-radius: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(225, 208, 186);
+}
+
+.thirddiv{
+
+  background-color: rgb(169, 203, 209);
+}
+
+@media only screen and (max-width: 400px) {
+  .petgalleryimages{
+    width: 100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.h23{
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.App-link {
-  color: #61dafb;
+.profile{
+  background-color: rgb(230, 240, 242);
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add{
+  background-color: rgba(180, 154, 109, 0.489);
+  border-radius: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.filter{
+  border-radius: 15px;
+  background-color: darkgrey;
+}
+
+.footer{
+  position: sticky;
 }
